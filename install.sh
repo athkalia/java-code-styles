@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Square's IntelliJ configs into your user configs.
+# Installs IntelliJ configs into your user configs.
 
-echo "Installing Square code style configs..."
+echo "Installing code style configs..."
 
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
